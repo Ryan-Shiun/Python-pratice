@@ -12,3 +12,4 @@ git log --online   # 上行簡易版
 git diff 版本ID --檔名 # 比較現版本與某版本差異
 git check out 版本ID --檔名 # 檔案還原至某版本(安全版)
 git reset 版本ID --檔名 # 檔案還原至某版本，會清除之後存檔紀錄(不可逆)
+git push # 將資料同步至Github
