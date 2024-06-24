@@ -1,0 +1,14 @@
+git config --global user name "使用者名稱"
+git config --global user email "電子信箱"
+git init # 初始化
+rmdir .git         # 刪除git初始化
+git status         # 檢查檔案狀態
+git add 檔案名稱    # 新曾檔案至暫存區
+git add *.py       # 新增所有附檔名為.py檔案
+git add .          # 將目錄中所有檔案新增至暫存區
+git commit -m "更改事件"(拍照)
+git log            # 查看檔案提交/修改歷史
+git log --online   # 上行簡易版
+git diff 版本ID --檔名 # 比較現版本與某版本差異
+git check out 版本ID --檔名 # 檔案還原至某版本(安全版)
+git reset 版本ID --檔名 # 檔案還原至某版本，會清除之後存檔紀錄(不可逆)
